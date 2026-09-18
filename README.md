@@ -1,57 +1,26 @@
 # Elan Nash
 
-`Software Engineer` — Backend Systems · Full-Stack Development · Data Reliability  
-University of Southern California · B.S. Computer Science (Dec 2024)  
-Los Angeles, CA  
+Software engineer in Los Angeles. I build member-facing web apps, Python backends, and LLM-backed product features. USC B.S. Computer Science, December 2024.
 
----
+## What I work on
 
-## 💾 Skills
-- Languages: C, C++, Java, Python, TypeScript, SQL  
-- Frameworks: FastAPI, React, Node.js, Express  
-- Databases: MongoDB, MySQL, Firebase  
-- Tools: Docker, Git  
-- Practices: REST APIs, Agile/Scrum, Testing (TDD, Unit), MVC  
+At GHN Career Academy I've built the software for an online career-coaching program since April 2024, solo at the start and now on a small team. The repos are private, so here is what they are:
 
----
+- **Scout**, a job-matching pipeline on Google Cloud Run. Deterministic filters and an embedding gate run before any LLM scoring, which keeps measured cost around $1.50 per run. A write-up of the first-week cost bug that forced that ordering is coming to [elannash.com](https://elannash.com).
+- **Career Hub**, the Next.js app where members approve their matches.
+- **Resume Crafter**, which turns schema-validated model output into a base resume for every member on intake.
+- **CareerOS**, the next coaching product, in development on Anthropic's Managed Agents API with member-scoped tools and per-session cost ceilings.
 
-## 🖥️ Featured Projects
-### [Relational Database Engine (C++)](https://github.com/elannash/relational-database)
-A lightweight database engine written in C++.  
-- Custom SQL parser and query execution engine  
-- Supports `CREATE`, `INSERT`, `SELECT` with `WHERE` filtering  
-- Indexed with a B+ tree for efficient queries  
+## Public code
 
----
+- [graphing-calculator-web-demo](https://github.com/elannash/graphing-calculator-web-demo). A C++ expression evaluator compiled to WebAssembly with Emscripten, behind a React and Chart.js UI. Live at [calculator.elannash.com](https://calculator.elannash.com).
+- [relational-database](https://github.com/elannash/relational-database). A relational database engine in C++. SQL tokenizer and parser, shunting-yard evaluation of WHERE clauses, B+ tree indexes in binary files.
+- [elannash.com](https://elannash.com). A retro desktop drawn on HTML5 Canvas with a WebGL CRT shader. Vite, React, TypeScript, Playwright, deployed to Cloudflare Pages.
 
-### [Graphing Calculator Web Demo](https://github.com/elannash/graphing-calculator-web-demo) · [Live Demo](https://calculator.elannash.com)
-A browser-based calculator for visualizing equations in real time.  
-- Frontend in React with Chart.js for smooth graph rendering  
-- Backend logic in C++, compiled to WebAssembly via Emscripten  
-- Pan/zoom interactivity, responsive UI, and equation input  
+## Stack
 
----
+Python (FastAPI, Pydantic, SQLAlchemy), TypeScript (React, Next.js, React Native), PostgreSQL and Supabase, Docker, Google Cloud Run, Anthropic and OpenAI APIs, LiteLLM. Daily Claude Code and Codex.
 
-### [Portfolio Website](https://elannash.com)
-Personal site with a retro CRT/Severance-inspired design.  
-- Built with React + TypeScript, deployed on GitHub Pages  
-- Interactive desktop-style UI with project showcases  
-- Includes a recruiter-friendly contact form  
+## Contact
 
----
-
-## 📡 Current Focus
-- Expanding systems-level projects in C++ and WebAssembly  
-- Building async pipelines with reliability patterns  
-- Designing clear, accessible user interfaces  
-
----
-
-## ☎️ Connect
-- [Portfolio](https://elannash.com)  
-- [LinkedIn](https://linkedin.com/in/elannash)  
-- elanmnash@gmail.com  
-
----
-
-▒▓░ *Check out my pinned repositories for more details on each project.* ░▓▒
+[elannash.com](https://elannash.com) · [linkedin.com/in/elannash](https://linkedin.com/in/elannash) · elanmnash@gmail.com
